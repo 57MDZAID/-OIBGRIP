@@ -103,7 +103,7 @@ class Transfer{
     int transfer(int balance,ArrayList<Integer>al){
         Scanner s=new Scanner (System.in);
         System.out.println("Enter bank account number =");
-        long acNo=s.nextlong();
+        long acNo=s.nextLong();
         System.out.println("Enter amount  =");
         int transferAmount=s.nextInt();
         if(transferAmount<=balance){
